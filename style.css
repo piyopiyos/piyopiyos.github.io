@@ -1,0 +1,141 @@
+@charset "utf-8";
+
+/* common */
+
+body {
+  margin: 0;
+}
+
+h1 {
+  margin: 0;
+}
+
+h2 {
+  margin: 0;
+  font-weight: normal;
+  font-size: 26px;
+  text-align: center;
+}
+
+h3 {
+  margin: 0;
+  font-weight: normal;
+  font-size: 16px;
+}
+
+p {
+  margin: 0;
+  font-size: 14px;
+}
+
+img {
+  vertical-align: bottom;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  width: calc(100% - 32px - 32px);
+  box-sizing: border-box;
+  padding: 32px 0 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;        <li>
+  <a href="stick.html">
+    <img src="stick/picStick.png" width="400" height="300" alt="くるくる割りばし">
+    <h3>くるくる割りばし</h3>
+    <p>GIFアニメ</p>
+  </a>
+</li>
+
+}
+
+a:hover {
+  opacity: 0.7;
+}
+
+/* works */
+
+.works {
+  margin-top: 32px;
+}
+
+.works ul {
+  list-style: none;
+  margin: 36px 0 0;
+  padding: 0;
+  display: flex;
+  gap: 32px;
+  flex-wrap: wrap;
+}
+
+.works li {
+  width: calc((100% - 64px) / 3);
+  box-sizing: border-box;  
+}
+
+.works img {
+  width: 100%;
+  height: auto;
+}
+
+.works h3 {
+  margin-top: 8px;
+}
+
+/* footer */
+
+footer {
+  text-align: center;
+  margin: 64px 0 0 0;
+  line-height: 2;
+  background: #eee;
+}
+
+/* small {
+  font-size: 14px;
+} */
+
+/* work */
+
+.work {
+  display: flex;
+  flex-direction: row-reverse;
+  gap: 8px;
+  margin-top: 32px;
+}
+
+.wd-1 {
+  flex: 1;
+  text-align: right;
+}
+
+.wd-2 {
+  flex: 3;
+}
+
+.work h2 {
+  font-size: 18px;
+  text-align: left;
+}
+
+.work p {
+  margin-top: 16px;
+}
+
+.work button {
+  all: unset;
+  border: 1px solid #bbb;
+  border-radius: 8px;
+  background: #eee;
+  margin-top: 32px;
+  padding: 8px 16px;
+  cursor: pointer;
+}
+
+.work img{
+  width: 100%;
+  height: auto;
+}
